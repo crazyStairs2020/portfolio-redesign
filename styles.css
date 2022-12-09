@@ -10,7 +10,7 @@
 }
 
 #page-body h1 {
-  font-size: 5em;
+  font-size: 4em;
   margin: auto;
   line-height: 100px;
   vertical-align: middle;
@@ -18,7 +18,7 @@
 }
 
 #page-body h2 {
-  font-size: 3.5em;
+  font-size: 2.5em;
   margin: auto;
   line-height: 100px;
   vertical-align: middle;
@@ -87,4 +87,18 @@
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
   resize: horizontal;
   overflow: auto;
+}
+
+.projects {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.links {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
